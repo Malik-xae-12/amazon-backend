@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const Users = require("./Users");
 const Orders = require("./Order");
 
-const Products = require("./Products");
+const Products = require("./products");
 
 const stripe = require("stripe")(
   "sk_test_51OwaFvSAYmxyccwdBdfDYallI7s2HAsPjV27RoSbNWdfY3clIFQ1PeqFGmxt53dc5wlGXpwXBVSK517egfPfBrE300LVT85oLk"
